@@ -13,15 +13,8 @@ void display() {
 
 	glVertex2f(-0.5f, 0.5f);    // x, y
 	glVertex2f(-0.5f, -0.5f);    // x, y
-
-//	glVertex2f(-0.5f, 0.5f);    // x, y
 	glVertex2f(0.5f, -0.5f);    // x, y
-
-//    glVertex2f(-0.5f, -0.5f);    // x, y
 	glVertex2f(0.5f, 0.5f);    // x, y
-
-//	glVertex2f(0.5f, -0.5f);    // x, y
-//	glVertex2f(0.5f, 0.5f);
 
 	glEnd();
 	glFlush();  // Render now
